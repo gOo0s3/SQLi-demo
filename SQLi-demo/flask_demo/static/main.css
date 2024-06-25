@@ -1,0 +1,108 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif; /* Updated font */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px; /* Added padding for spacing */
+}
+
+header {
+    background: #35424a;
+    color: white;
+    padding: 20px 0; /* Increased padding */
+    min-height: 100px; /* Increased height */
+    border-bottom: #e8491d 3px solid;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 28px; /* Increased font size */
+}
+
+.user-info {
+    float: right;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.user-info a:hover {
+    color: #cccccc;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    padding: 20px; /* Added padding for spacing */
+    min-height: 500px;
+}
+
+.search-bar {
+    margin: 0 auto;
+    text-align: center;
+    display: flex; /* Using flexbox for alignment */
+    justify-content: center;
+}
+
+.search-bar input[type=text] {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Added border */
+}
+
+.search-bar input[type=submit] {
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px; /* Added spacing between input and button */
+}
+
+.search-bar input[type=submit]:hover {
+    background-color: #35424a;
+    color: white;
+}
+
+.product-result {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px; /* Increased spacing between results */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+.product-name {
+    font-weight: 600; /* Increased font weight */
+    color: #444; /* Darker text color */
+}
+
+.product-price {
+    color: #e8491d;
+    font-size: 16px;
+}
+
+.welcome-message {
+    font-size: 20px;
+    color: #444; /* Darker text color */
+    text-align: center;
+    margin-top: 40px;
+}

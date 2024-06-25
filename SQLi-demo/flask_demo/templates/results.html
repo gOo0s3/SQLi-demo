@@ -1,0 +1,12 @@
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+{% extends "layout.html" %}
+{% block content %}
+<h2>Search Results</h2>
+{% for product in search_result %}
+<div class="product-result">
+	<p class="product-name">{{ product[1] }}</p>
+	<p class="product-price">{{ product[2] }}</p>
+	<p class="product-price">[{{ product[3] }} left in stock]</p>
+</div>
+{% endfor %}
+{% endblock content %}
